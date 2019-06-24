@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Welcome_Page]">
+  <parameter name="Application" value="App"/>
+  <parameter name="Android" value="Mobile"/>
+  <test name="ONCeLED">
+    <classes>
+      <class name="Once_LED.Welcome_dash"/>
+      <class name="Once_LED.Home_menu"/>
+      <class name="Once_LED.Settings"/>
+      <class name="Once_LED.Manual_mode"/>
+      <class name="Once_LED.Create_connection"/>
+    </classes>
+  </test> <!-- ONCeLED -->
+  <test name="ONCeLED(failed)">
+    <classes>
+      <class name="Once_LED.Home_menu">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Once_LED.Home_menu -->
+      <class name="Once_LED.Create_connection">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Once_LED.Create_connection -->
+      <class name="Once_LED.Welcome_dash">
+        <methods>
+          <include name="End"/>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Once_LED.Welcome_dash -->
+      <class name="Once_LED.Manual_mode">
+        <methods>
+          <include name="Manual_settings"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Once_LED.Manual_mode -->
+      <class name="Once_LED.Settings">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Once_LED.Settings -->
+    </classes>
+  </test> <!-- ONCeLED(failed) -->
+</suite> <!-- Failed suite [Welcome_Page] -->

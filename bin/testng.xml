@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Welcome_Page" verbose="5">
+<parameter name="Android" value="Mobile"/>
+<parameter name="Application" value="App"/>
+ <test name="ONCeLED">
+ <classes>
+     <class name="Once_LED.Welcome_dash"/>
+     <class name="Once_LED.Home_menu"/>
+     <class name="Once_LED.Settings"/>
+     <class name="Once_LED.Manual_mode"/>
+     <class name="Once_LED.Create_connection"/>
+     
+ </classes>
+  </test>
+</suite>

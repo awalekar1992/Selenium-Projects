@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.932">
+  <properties />
+  
+  
+            <testcase name="Import_model" time="1.877" classname="Transient_App_windows.Model_Menu" />
+                <testcase name="New_model" time="0.536" classname="Transient_App_windows.Model_Menu" />
+                <testcase name="Model1" time="0.342" classname="Transient_App_windows.Model_Menu" />
+                <testcase name="Model" time="0.347" classname="Transient_App_windows.Model_Menu" />
+                <testcase name="Export_model" time="1.479" classname="Transient_App_windows.Model_Menu" />
+                <testcase name="Model2" time="0.351" classname="Transient_App_windows.Model_Menu" />
+      
+</testsuite>

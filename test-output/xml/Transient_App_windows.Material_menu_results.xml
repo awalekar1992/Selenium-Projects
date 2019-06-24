@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="9"
+           failures="6"
+           errors="0"
+           skipped="0"
+           time="13.640">
+  <properties />
+            <testcase name="getResult" time="0.000" classname="Transient_App_windows.Material_menu">
+                <failure type="org.openqa.selenium.NoSuchWindowException"
+                  message="Currently selected window has been closed (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;TEPL-THN-WS376&apos;, ip: &apos;192.168.18.132&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: io.appium.java_client.windows.WindowsDriver
+Capabilities {app: D:\Marlow\Transient.exe, javascriptEnabled: true, platform: WINDOWS, platformName: WINDOWS}
+Session ID: 54E1DF14-C785-49EC-BE2A-3ADD5E878DFE"
+              >
+<![CDATA[org.openqa.selenium.NoSuchWindowException: Currently selected window has been closed (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'TEPL-THN-WS376', ip: '192.168.18.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Capabilities {app: D:\Marlow\Transient.exe, javascriptEnabled: true, platform: WINDOWS, platformName: WINDOWS}
+Session ID: 54E1DF14-C785-49EC-BE2A-3ADD5E878DFE
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+  java.lang.reflect.Constructor.newInstance(Unknown Source)
+  org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+  org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+  org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+  org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+  org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+  io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+  io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+  io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+  io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
+  org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+  Transient_App_windows.screenshot.capture(screenshot.java:20)
+  Transient_App_windows.BaseClass.getResult(BaseClass.java:80)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:709)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="Edit_material" time="2.504" classname="Transient_App_windows.Material_menu">
+                <failure type="org.openqa.selenium.NoSuchElementException"
+                  message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;TEPL-THN-WS376&apos;, ip: &apos;192.168.18.132&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: io.appium.java_client.windows.WindowsDriver
+Capabilities {app: D:\Marlow\Transient.exe, javascriptEnabled: true, platform: WINDOWS, platformName: WINDOWS}
+Session ID: 038DA9D0-4C8A-40A0-A1AE-2C2C968A324C
+*** Element info: {Using=accessibility id, value=btnEditMaterial}"
+              >
+<![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'TEPL-THN-WS376', ip: '192.168.18.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Capabilities {app: D:\Marlow\Transient.exe, javascriptEnabled: true, platform: WINDOWS, platformName: WINDOWS}
+Session ID: 038DA9D0-4C8A-40A0-A1AE-2C2C968A324C
+*** Element info: {Using=accessibility id, value=btnEditMaterial}
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+  java.lang.reflect.Constructor.newInstance(Unknown Source)
+  org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+  org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+  org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+  org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+  org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+  io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+  io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+  io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+  io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+  io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+  io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+  io.appium.java_client.windows.WindowsDriver.findElement(WindowsDriver.java:1)
+  io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
+  Transient_App_windows.Material_menu.Edit_material(Material_menu.java:64)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="Delete_material" time="2.567" classname="Transient_App_windows.Material_menu">
+                <failure type="org.openqa.selenium.NoSuchElementException"
+                  message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;TEPL-THN-WS376&apos;, ip: &apos;192.168.18.132&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: io.appium.java_client.windows.WindowsDriver
+Capabilities {app: D:\Marlow\Transient.exe, javascriptEnabled: true, platform: WINDOWS, platformName: WINDOWS}
+Session ID: 56B60CD4-FA84-47EC-96FC-69E07AA32C7E
+*** Element info: {Using=accessibility id, value=btnDeleteMaterial}"
+              >
+<![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'TEPL-THN-WS376', ip: '192.168.18.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Capabilities {app: D:\Marlow\Transient.exe, javascriptEnabled: true, platform: WINDOWS, platformName: WINDOWS}
+Session ID: 56B60CD4-FA84-47EC-96FC-69E07AA32C7E
+*** Element info: {Using=accessibility id, value=btnDeleteMaterial}
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+  java.lang.reflect.Constructor.newInstance(Unknown Source)
+  org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+  org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+  org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+  org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+  org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+  io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+  io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+  io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+  io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+  io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+  io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+  io.appium.java_client.windows.WindowsDriver.findElement(WindowsDriver.java:1)
+  io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
+  Transient_App_windows.Material_menu.Delete_material(Material_menu.java:97)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="Manage_material" time="2.950" classname="Transient_App_windows.Material_menu">
+                <failure type="org.openqa.selenium.NoSuchElementException"
+                  message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;TEPL-THN-WS376&apos;, ip: &apos;192.168.18.132&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: io.appium.java_client.windows.WindowsDriver
+Capabilities {app: D:\Marlow\Transient.exe, javascriptEnabled: true, platform: WINDOWS, platformName: WINDOWS}
+Session ID: 531D167D-50A2-427A-B88C-F624DECB4CB3
+*** Element info: {Using=accessibility id, value=txtMaterialName}"
+              >
+<![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'TEPL-THN-WS376', ip: '192.168.18.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Capabilities {app: D:\Marlow\Transient.exe, javascriptEnabled: true, platform: WINDOWS, platformName: WINDOWS}
+Session ID: 531D167D-50A2-427A-B88C-F624DECB4CB3
+*** Element info: {Using=accessibility id, value=txtMaterialName}
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+  java.lang.reflect.Constructor.newInstance(Unknown Source)
+  org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+  org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+  org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+  org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+  org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+  io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+  io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+  io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+  io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+  io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+  io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+  io.appium.java_client.windows.WindowsDriver.findElement(WindowsDriver.java:1)
+  io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
+  Transient_App_windows.Material_menu.Manage_material(Material_menu.java:33)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="Import_material" time="0.219" classname="Transient_App_windows.Material_menu">
+                <failure type="org.openqa.selenium.WebDriverException"
+                  message="An unknown error occurred in the remote end while processing the command. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;TEPL-THN-WS376&apos;, ip: &apos;192.168.18.132&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: io.appium.java_client.windows.WindowsDriver
+Capabilities {app: D:\Marlow\Transient.exe, javascriptEnabled: true, platform: WINDOWS, platformName: WINDOWS}
+Session ID: 68187566-4B0D-4B37-90E6-9D048481CA30"
+              >
+<![CDATA[org.openqa.selenium.WebDriverException: An unknown error occurred in the remote end while processing the command. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'TEPL-THN-WS376', ip: '192.168.18.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Capabilities {app: D:\Marlow\Transient.exe, javascriptEnabled: true, platform: WINDOWS, platformName: WINDOWS}
+Session ID: 68187566-4B0D-4B37-90E6-9D048481CA30
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+  java.lang.reflect.Constructor.newInstance(Unknown Source)
+  org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+  org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+  org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+  org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+  org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+  io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+  io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+  io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+  io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
+  org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+  org.openqa.selenium.remote.RemoteKeyboard.sendKeys(RemoteKeyboard.java:38)
+  org.openqa.selenium.interactions.SendKeysAction.perform(SendKeysAction.java:56)
+  org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:34)
+  org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:642)
+  Transient_App_windows.Material_menu.Import_material(Material_menu.java:122)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="Export_material" time="3.786" classname="Transient_App_windows.Material_menu">
+                <failure type="org.openqa.selenium.NoSuchElementException"
+                  message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;TEPL-THN-WS376&apos;, ip: &apos;192.168.18.132&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: io.appium.java_client.windows.WindowsDriver
+Capabilities {app: D:\Marlow\Transient.exe, javascriptEnabled: true, platform: WINDOWS, platformName: WINDOWS}
+Session ID: 54E1DF14-C785-49EC-BE2A-3ADD5E878DFE
+*** Element info: {Using=name, value=Export}"
+              >
+<![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'TEPL-THN-WS376', ip: '192.168.18.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Capabilities {app: D:\Marlow\Transient.exe, javascriptEnabled: true, platform: WINDOWS, platformName: WINDOWS}
+Session ID: 54E1DF14-C785-49EC-BE2A-3ADD5E878DFE
+*** Element info: {Using=name, value=Export}
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+  java.lang.reflect.Constructor.newInstance(Unknown Source)
+  org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+  org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+  org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+  org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+  org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+  io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+  io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+  io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+  io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+  io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+  io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+  io.appium.java_client.windows.WindowsDriver.findElement(WindowsDriver.java:1)
+  org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+  io.appium.java_client.DefaultGenericMobileDriver.findElementByName(DefaultGenericMobileDriver.java:118)
+  io.appium.java_client.AppiumDriver.findElementByName(AppiumDriver.java:1)
+  io.appium.java_client.windows.WindowsDriver.findElementByName(WindowsDriver.java:1)
+  Transient_App_windows.Material_menu.Export_material(Material_menu.java:151)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="Material2" time="0.351" classname="Transient_App_windows.Material_menu" />
+                <testcase name="Material" time="0.909" classname="Transient_App_windows.Material_menu" />
+                <testcase name="Material3" time="0.354" classname="Transient_App_windows.Material_menu" />
+      
+</testsuite>

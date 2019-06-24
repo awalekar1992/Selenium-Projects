@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="List" verbose="5">
+
+<parameter name="OS" value="Desktop"/>
+<parameter name="browser" value="App"/>
+
+  <test name="List">
+   <classes>
+     <class name="Report.Screenshot_list"/>
+    </classes>
+  </test>
+  <listeners>
+       <listener class-name="com.pack.listeners.TestListener"/>
+  </listeners>
+</suite>

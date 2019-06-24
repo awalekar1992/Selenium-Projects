@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Transient_App_windows Marlows Industries]">
+  <parameter name="Windows" value="Desktop"/>
+  <parameter name="Application" value="App"/>
+  <test name="Transient_App_windows">
+    <classes>
+      <class name="Transient_App_windows.Transient_home"/>
+      <class name="Transient_App_windows.Model_Menu"/>
+    </classes>
+  </test> <!-- Transient_App_windows -->
+</suite> <!-- Failed suite [Transient_App_windows Marlows Industries] -->

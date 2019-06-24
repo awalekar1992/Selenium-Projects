@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<suite name = "Simple Suite">
+  
+   <test name = "Simple test">
+      <classes>
+         <class name = "JunitReport.SampleTest" />
+      </classes>
+   </test>
+</suite>

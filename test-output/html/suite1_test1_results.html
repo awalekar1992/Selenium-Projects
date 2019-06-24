@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Test</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Test</h1>
+<p>
+  Test duration: 10.600s
+</p>
+
+  <table class="resultsTable configTable">
+    <tr><th colspan="3" class="header failedConfig">Failed Configuration</th></tr>
+              <tr class="group">
+        <td colspan="3">Transient_App_windows.Transient_home</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  generateReport
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.apache.poi.ooxml.POIXMLException: org.apache.poi.ooxml.POIXMLException: java.lang.reflect.InvocationTargetException</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.apache.poi.ooxml.POIXMLDocumentPart.createRelationship(POIXMLDocumentPart.java:603)<br />
+              org.apache.poi.xssf.usermodel.XSSFWorkbook.createSheet(XSSFWorkbook.java:892)<br />
+              org.automationtesting.excelreport.Xl.addSheet(Xl.java:490)<br />
+              org.automationtesting.excelreport.Xl.generateReport(Xl.java:80)<br />
+              Transient_App_windows.BaseClass.generateReport(BaseClass.java:103)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+              org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)<br />
+              org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)<br />
+              org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:336)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:268)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+              org.testng.TestNG.run(TestNG.java:1064)<br />
+              org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse">org.apache.poi.ooxml.POIXMLException: java.lang.reflect.InvocationTargetException</a><br />
+        <div class="stackTrace" id="exception-1">
+                      org.apache.poi.ooxml.POIXMLFactory.newDocumentPart(POIXMLFactory.java:111)<br />
+                      org.apache.poi.ooxml.POIXMLDocumentPart.createRelationship(POIXMLDocumentPart.java:588)<br />
+                      org.apache.poi.xssf.usermodel.XSSFWorkbook.createSheet(XSSFWorkbook.java:892)<br />
+                      org.automationtesting.excelreport.Xl.addSheet(Xl.java:490)<br />
+                      org.automationtesting.excelreport.Xl.generateReport(Xl.java:80)<br />
+                      Transient_App_windows.BaseClass.generateReport(BaseClass.java:103)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+                      org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)<br />
+                      org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)<br />
+                      org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)<br />
+                      org.testng.SuiteRunner.privateRun(SuiteRunner.java:336)<br />
+                      org.testng.SuiteRunner.run(SuiteRunner.java:268)<br />
+                      org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+                      org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+                      org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)<br />
+                      org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+                      org.testng.TestNG.run(TestNG.java:1064)<br />
+                      org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)<br />
+                      org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)<br />
+                      org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)<br />
+                  </div>
+              <b>Caused by: </b> <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse">java.lang.reflect.InvocationTargetException</a><br />
+        <div class="stackTrace" id="exception-2">
+                      sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+                      sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br />
+                      sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br />
+                      java.lang.reflect.Constructor.newInstance(Unknown Source)<br />
+                      org.apache.poi.xssf.usermodel.XSSFFactory.createDocumentPart(XSSFFactory.java:56)<br />
+                      org.apache.poi.ooxml.POIXMLFactory.newDocumentPart(POIXMLFactory.java:109)<br />
+                      org.apache.poi.ooxml.POIXMLDocumentPart.createRelationship(POIXMLDocumentPart.java:588)<br />
+                      org.apache.poi.xssf.usermodel.XSSFWorkbook.createSheet(XSSFWorkbook.java:892)<br />
+                      org.automationtesting.excelreport.Xl.addSheet(Xl.java:490)<br />
+                      org.automationtesting.excelreport.Xl.generateReport(Xl.java:80)<br />
+                      Transient_App_windows.BaseClass.generateReport(BaseClass.java:103)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+                      org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)<br />
+                      org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)<br />
+                      org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)<br />
+                      org.testng.SuiteRunner.privateRun(SuiteRunner.java:336)<br />
+                      org.testng.SuiteRunner.run(SuiteRunner.java:268)<br />
+                      org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+                      org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+                      org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)<br />
+                      org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+                      org.testng.TestNG.run(TestNG.java:1064)<br />
+                      org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)<br />
+                      org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)<br />
+                      org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)<br />
+                  </div>
+              <b>Caused by: </b> <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse">java.lang.NoSuchMethodError: org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTWorksheetImpl.generatedSetterHelperImpl(Lorg/apache/xmlbeans/XmlObject;Ljavax/xml/namespace/QName;IS)Lorg/apache/xmlbeans/XmlObject;</a><br />
+        <div class="stackTrace" id="exception-3">
+                      org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTWorksheetImpl.setColsArray(Unknown Source)<br />
+                      org.apache.poi.xssf.usermodel.helpers.ColumnHelper.cleanColumns(ColumnHelper.java:66)<br />
+                      org.apache.poi.xssf.usermodel.helpers.ColumnHelper.&lt;init&gt;(ColumnHelper.java:46)<br />
+                      org.apache.poi.xssf.usermodel.XSSFSheet.onDocumentCreate(XSSFSheet.java:258)<br />
+                      org.apache.poi.xssf.usermodel.XSSFSheet.&lt;init&gt;(XSSFSheet.java:186)<br />
+                      sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+                      sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br />
+                      sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br />
+                      java.lang.reflect.Constructor.newInstance(Unknown Source)<br />
+                      org.apache.poi.xssf.usermodel.XSSFFactory.createDocumentPart(XSSFFactory.java:56)<br />
+                      org.apache.poi.ooxml.POIXMLFactory.newDocumentPart(POIXMLFactory.java:109)<br />
+                      org.apache.poi.ooxml.POIXMLDocumentPart.createRelationship(POIXMLDocumentPart.java:588)<br />
+                      org.apache.poi.xssf.usermodel.XSSFWorkbook.createSheet(XSSFWorkbook.java:892)<br />
+                      org.automationtesting.excelreport.Xl.addSheet(Xl.java:490)<br />
+                      org.automationtesting.excelreport.Xl.generateReport(Xl.java:80)<br />
+                      Transient_App_windows.BaseClass.generateReport(BaseClass.java:103)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+                      org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)<br />
+                      org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)<br />
+                      org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)<br />
+                      org.testng.SuiteRunner.privateRun(SuiteRunner.java:336)<br />
+                      org.testng.SuiteRunner.run(SuiteRunner.java:268)<br />
+                      org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+                      org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+                      org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)<br />
+                      org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+                      org.testng.TestNG.run(TestNG.java:1064)<br />
+                      org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)<br />
+                      org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)<br />
+                      org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+    
+      </table>
+
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">Transient_App_windows.Transient_home</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  File
+      </td>
+  <td class="duration">
+    0.331s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="Negative_Testing.Login"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Negative_Testing.Login">
+        <methods>
+          <include name="tearDown"/>
+          <include name="letsKodeIt" invocation-numbers="0 1"/>
+          <include name="afterEachMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Negative_Testing.Login -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
